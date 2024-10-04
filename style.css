@@ -1,0 +1,22 @@
+.download-buttons a {
+    display: flex; /* Makes sure the logo and text are aligned properly */
+    align-items: center; /* Vertically centers the content */
+    justify-content: center; /* Centers everything horizontally */
+    padding: 10px 20px;
+    background-color: #333; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline */
+    border-radius: 10px;
+    width: 150px; /* Adjust width of the button */
+    transition: transform 0.3s ease; /* Adds hover effect */
+}
+
+.download-buttons a img {
+    width: 30px;  /* Change this value to make the logo smaller/larger */
+    height: 30px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adds space between logo and text */
+}
+
+.download-buttons a:hover {
+    transform: scale(1.05); /* Optional: Button enlarges slightly when hovered */
+}
